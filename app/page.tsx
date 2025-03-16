@@ -41,9 +41,18 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative">
-          <div className="h-[70vh] bg-[#F5F2EA] flex items-center">
-            <div className="container grid gap-4 md:grid-cols-2 items-center">
-              <div className="space-y-6">
+          <div className="min-h-[70vh] bg-[#F5F2EA] flex items-center py-12">
+            <div className="container grid gap-8 md:gap-4 md:grid-cols-2 items-center">
+              <div className="relative h-[300px] md:h-[400px] w-full order-first md:order-last">
+                <Image
+                  src="/assets/IMG_8321.JPG"
+                  alt="Matcha Tea"
+                  fill
+                  priority
+                  className="object-cover rounded-lg"
+                />
+              </div>
+              <div className="space-y-6 order-last md:order-first">
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight text-[#72462d]">
                   Experience the <span className="text-[#72462d]">Serenity</span> of Matcha
                 </h1>
@@ -57,14 +66,6 @@ export default function Home() {
                     Visit Cafe
                   </Button>
                 </div>
-              </div>
-              <div className="hidden md:block relative h-[400px]">
-                <Image
-                  src="/assets/IMG_8321.JPG?height=400&width=500"
-                  alt="Matcha Tea"
-                  fill
-                  className="object-cover rounded-lg"
-                />
               </div>
             </div>
           </div>
@@ -160,7 +161,15 @@ export default function Home() {
         <section id="contact" className="py-16 bg-white">
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
+              <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden order-first md:order-last">
+                <Image
+                  src="/assets/IMG_8320.JPG"
+                  alt="Matcha Cafe Interior"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="order-last md:order-first">
                 <h2 className="text-3xl font-bold text-[#72462d] mb-6">Visit Our Cafe</h2>
                 <p className="text-muted-foreground mb-8">
                   Experience the tranquility of our matcha cafe in person. Enjoy freshly prepared matcha drinks and
@@ -201,15 +210,6 @@ export default function Home() {
                     <span className="sr-only">Twitter</span>
                   </Link>
                 </div>
-              </div>
-
-              <div className="relative h-[400px] rounded-lg overflow-hidden">
-                <Image
-                  src="/assets/IMG_8320.JPG?height=400&width=500"
-                  alt="Matcha Cafe Interior"
-                  fill
-                  className="object-cover"
-                />
               </div>
             </div>
           </div>
