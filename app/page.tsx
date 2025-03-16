@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/assets/NM_logo-02.png?height=32&width=32"
+              src="/assets/NM_logo-02.PNG"
               alt="Matcha Cafe Logo"
               width={50}
               height={50}
@@ -223,7 +223,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Image
-                  src="/placeholder.svg?height=32&width=32"
+                  src="/assets/NM_logo-02.PNG"
                   alt="Matcha Cafe Logo"
                   width={32}
                   height={32}
