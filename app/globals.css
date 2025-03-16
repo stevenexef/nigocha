@@ -19,7 +19,7 @@
     --border: 60 5% 90%;
     --input: 60 5% 90%;
 
-    --primary: 90 20% 38%;
+    --primary: 20 45% 31%;
     --primary-foreground: 60 30% 98%;
 
     --secondary: 48 33% 94%;
@@ -31,7 +31,7 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --ring: 90 20% 38%;
+    --ring: 20 45% 31%;
 
     --radius: 0.5rem;
   }
@@ -52,7 +52,7 @@
     --border: 90 15% 25%;
     --input: 90 15% 25%;
 
-    --primary: 90 20% 58%;
+    --primary: 20 45% 41%;
     --primary-foreground: 90 15% 15%;
 
     --secondary: 90 15% 25%;
@@ -64,7 +64,7 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --ring: 90 20% 58%;
+    --ring: 20 45% 41%;
   }
 }
 

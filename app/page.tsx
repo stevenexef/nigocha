@@ -18,23 +18,23 @@ export default function Home() {
               height={50}
               className="rounded-full"
             />
-            <span className="text-xl font-semibold text-[#5D7052]">Nigocha Matcha</span>
+            <span className="text-xl font-semibold text-[#72462d]">Nigocha Matcha</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="#" className="text-sm font-medium hover:text-[#5D7052] transition-colors">
+            <Link href="#" className="text-sm font-medium hover:text-[#72462d] transition-colors">
               Home
             </Link>
-            <Link href="#about" className="text-sm font-medium hover:text-[#5D7052] transition-colors">
+            <Link href="#about" className="text-sm font-medium hover:text-[#72462d] transition-colors">
               About
             </Link>
-            <Link href="#products" className="text-sm font-medium hover:text-[#5D7052] transition-colors">
+            <Link href="#products" className="text-sm font-medium hover:text-[#72462d] transition-colors">
               Products
             </Link>
-            <Link href="#contact" className="text-sm font-medium hover:text-[#5D7052] transition-colors">
+            <Link href="#contact" className="text-sm font-medium hover:text-[#72462d] transition-colors">
               Contact
             </Link>
           </nav>
-          <Button className="bg-[#5D7052] hover:bg-[#4A5A41] text-white">Order Online</Button>
+          <Button className="bg-[#72462d] hover:bg-[#5d3a25] text-white">Order Online</Button>
         </div>
       </header>
 
@@ -44,16 +44,16 @@ export default function Home() {
           <div className="h-[70vh] bg-[#F5F2EA] flex items-center">
             <div className="container grid gap-4 md:grid-cols-2 items-center">
               <div className="space-y-6">
-                <h1 className="text-4xl md:text-6xl font-bold leading-tight text-[#3A4A31]">
-                  Experience the <span className="text-[#5D7052]">Serenity</span> of Matcha
+                <h1 className="text-4xl md:text-6xl font-bold leading-tight text-[#72462d]">
+                  Experience the <span className="text-[#72462d]">Serenity</span> of Matcha
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-[600px]">
                   Discover our premium matcha products, handcrafted with care and tradition for a moment of calm in your
                   day.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="bg-[#5D7052] hover:bg-[#4A5A41] text-white">Shop Products</Button>
-                  <Button variant="outline" className="border-[#5D7052] text-[#5D7052]">
+                  <Button className="bg-[#72462d] hover:bg-[#5d3a25] text-white">Shop Products</Button>
+                  <Button variant="outline" className="border-[#72462d] text-[#72462d]">
                     Visit Cafe
                   </Button>
                 </div>
@@ -74,7 +74,7 @@ export default function Home() {
         <section id="about" className="py-16 bg-white">
           <div className="container">
             <div className="max-w-3xl mx-auto text-center space-y-4">
-              <h2 className="text-3xl font-bold text-[#3A4A31]">Our Story</h2>
+              <h2 className="text-3xl font-bold text-[#72462d]">Our Story</h2>
               <p className="text-muted-foreground">
                 Nigocha Matcha was born from a passion for authentic Japanese tea culture and a desire to share the
                 calming ritual of matcha preparation with our community. We source only the finest matcha directly from
@@ -84,30 +84,30 @@ export default function Home() {
 
             <div className="grid md:grid-cols-3 gap-8 mt-16">
               <div className="bg-[#F5F2EA] p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-[#8DAB7F] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-[#72462d] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">1</span>
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-[#3A4A31]">Premium Quality</h3>
+                <h3 className="font-semibold text-lg mb-2 text-[#72462d]">Premium Quality</h3>
                 <p className="text-sm text-muted-foreground">
                   Our matcha is ceremonial grade, sourced directly from Uji, Japan.
                 </p>
               </div>
 
               <div className="bg-[#F5F2EA] p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-[#8DAB7F] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-[#72462d] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">2</span>
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-[#3A4A31]">Sustainable Practices</h3>
+                <h3 className="font-semibold text-lg mb-2 text-[#72462d]">Sustainable Practices</h3>
                 <p className="text-sm text-muted-foreground">
                   We prioritize eco-friendly packaging and ethical sourcing in all we do.
                 </p>
               </div>
 
               <div className="bg-[#F5F2EA] p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-[#8DAB7F] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-[#72462d] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">3</span>
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-[#3A4A31]">Handcrafted Care</h3>
+                <h3 className="font-semibold text-lg mb-2 text-[#72462d]">Handcrafted Care</h3>
                 <p className="text-sm text-muted-foreground">
                   Each product is prepared with attention to detail and traditional methods.
                 </p>
@@ -120,7 +120,7 @@ export default function Home() {
         <section id="products" className="py-16 bg-[#F5F2EA]">
           <div className="container">
             <div className="max-w-3xl mx-auto text-center space-y-4 mb-12">
-              <h2 className="text-3xl font-bold text-[#3A4A31]">Our Products</h2>
+              <h2 className="text-3xl font-bold text-[#72462d]">Our Products</h2>
               <p className="text-muted-foreground">
                 Explore our selection of premium matcha products, perfect for enjoying at home or giving as a thoughtful
                 gift.
@@ -137,11 +137,11 @@ export default function Home() {
                     <Image src={product.image || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
                   </div>
                   <div className="p-4">
-                    <h3 className="font-semibold text-[#3A4A31]">{product.name}</h3>
+                    <h3 className="font-semibold text-[#72462d]">{product.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">{product.description}</p>
                     <div className="flex items-center justify-between mt-4">
-                      <span className="font-bold text-[#5D7052]">${product.price}</span>
-                      <Button size="sm" className="bg-[#5D7052] hover:bg-[#4A5A41] text-white">
+                      <span className="font-bold text-[#72462d]">${product.price}</span>
+                      <Button size="sm" className="bg-[#72462d] hover:bg-[#5d3a25] text-white">
                         Add to Cart
                       </Button>
                     </div>
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
 
             <div className="text-center mt-12">
-              <Button className="bg-[#5D7052] hover:bg-[#4A5A41] text-white">View All Products</Button>
+              <Button className="bg-[#72462d] hover:bg-[#5d3a25] text-white">View All Products</Button>
             </div>
           </div>
         </section>
@@ -161,7 +161,7 @@ export default function Home() {
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-[#3A4A31] mb-6">Visit Our Cafe</h2>
+                <h2 className="text-3xl font-bold text-[#72462d] mb-6">Visit Our Cafe</h2>
                 <p className="text-muted-foreground mb-8">
                   Experience the tranquility of our matcha cafe in person. Enjoy freshly prepared matcha drinks and
                   treats in our serene space.
@@ -169,11 +169,11 @@ export default function Home() {
 
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <MapPin className="h-5 w-5 text-[#5D7052]" />
+                    <MapPin className="h-5 w-5 text-[#72462d]" />
                     <span>123 Serenity Lane, Green District, CA 94123</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Clock className="h-5 w-5 text-[#5D7052]" />
+                    <Clock className="h-5 w-5 text-[#72462d]" />
                     <span>Mon-Fri: 8am-6pm | Sat-Sun: 9am-5pm</span>
                   </div>
                 </div>
@@ -181,21 +181,21 @@ export default function Home() {
                 <div className="flex gap-4 mt-8">
                   <Link
                     href="#"
-                    className="h-10 w-10 rounded-full bg-[#F5F2EA] flex items-center justify-center text-[#5D7052] hover:bg-[#E5E2DA] transition-colors"
+                    className="h-10 w-10 rounded-full bg-[#F5F2EA] flex items-center justify-center text-[#72462d] hover:bg-[#E5E2DA] transition-colors"
                   >
                     <Instagram className="h-5 w-5" />
                     <span className="sr-only">Instagram</span>
                   </Link>
                   <Link
                     href="#"
-                    className="h-10 w-10 rounded-full bg-[#F5F2EA] flex items-center justify-center text-[#5D7052] hover:bg-[#E5E2DA] transition-colors"
+                    className="h-10 w-10 rounded-full bg-[#F5F2EA] flex items-center justify-center text-[#72462d] hover:bg-[#E5E2DA] transition-colors"
                   >
                     <Facebook className="h-5 w-5" />
                     <span className="sr-only">Facebook</span>
                   </Link>
                   <Link
                     href="#"
-                    className="h-10 w-10 rounded-full bg-[#F5F2EA] flex items-center justify-center text-[#5D7052] hover:bg-[#E5E2DA] transition-colors"
+                    className="h-10 w-10 rounded-full bg-[#F5F2EA] flex items-center justify-center text-[#72462d] hover:bg-[#E5E2DA] transition-colors"
                   >
                     <Twitter className="h-5 w-5" />
                     <span className="sr-only">Twitter</span>
@@ -217,7 +217,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#3A4A31] text-white py-12">
+      <footer className="bg-[#72462d] text-white py-12">
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
@@ -295,14 +295,14 @@ export default function Home() {
               </p>
               <div className="flex gap-2">
                 <input type="email" placeholder="Your email" className="px-3 py-2 rounded text-black text-sm flex-1" />
-                <Button size="sm" className="bg-[#8DAB7F] hover:bg-[#7A9A6C] text-white">
+                <Button size="sm" className="bg-[#8b5638] hover:bg-[#72462d] text-white">
                   Subscribe
                 </Button>
               </div>
             </div>
           </div>
 
-          <div className="border-t border-[#5D7052] mt-8 pt-8 text-center text-sm text-[#D1D9CD]">
+          <div className="border-t border-[#8b5638] mt-8 pt-8 text-center text-sm text-[#D1D9CD]">
             <p>© {new Date().getFullYear()} Nigocha Matcha. All rights reserved.</p>
           </div>
         </div>
